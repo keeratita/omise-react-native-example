@@ -7,18 +7,22 @@
     "test": "jest"
   },
   "dependencies": {
-    "native-base": "^2.3.10",
-    "omise-react-native": "0.0.3",
-    "react": "^16.3.0-alpha.1",
-    "react-native": "0.54.1"
+    "native-base": "^2.8.1",
+    "omise-react-native": "^0.0.5",
+    "react": "^16.5.2",
+    "react-native": "^0.57.2"
   },
   "devDependencies": {
-    "babel-jest": "22.4.1",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "22.4.2",
-    "react-test-renderer": "^16.3.0-alpha.1"
+    "babel-jest": "^23.6.0",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.5.2",
+    "schedule": "^0.4.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|native-base-shoutem-theme|@shoutem/animation|@shoutem/ui|tcomb-form-native)"
+    ]
   }
 }
