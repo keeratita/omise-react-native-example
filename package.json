@@ -10,7 +10,7 @@
     "native-base": "^2.12.1",
     "omise-react-native": "^0.0.5",
     "react": "^16.8.6",
-    "react-native": "^0.59.6"
+    "react-native": "^0.63.3"
   },
   "devDependencies": {
     "babel-jest": "^24.7.1",
